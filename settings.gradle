@@ -1,4 +1,2 @@
-include ':app', ':lib:mplib'
-
-
+include ':app'
 
