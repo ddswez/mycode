@@ -25,6 +25,10 @@
             android:label="@string/title_activity_my_view" >
         </activity>
         <activity
+            android:name=".activity.MyPieCharActivity"
+            android:label="@string/title_activity_my_view" >
+        </activity>
+        <activity
             android:name=".swipeListView.RefreshActivity"
             android:label="@string/title_activity_my_view" >
         </activity>

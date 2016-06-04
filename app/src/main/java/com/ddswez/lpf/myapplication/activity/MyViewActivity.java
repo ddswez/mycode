@@ -42,6 +42,7 @@ public class MyViewActivity extends AppCompatActivity {
         mRoundView.setTextSize(50);
         mRoundView.setText("进行中");
         mRoundView.setTextColor(getResources().getColor(R.color.orange));
+
     }
 
 

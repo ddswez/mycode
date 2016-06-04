@@ -56,4 +56,13 @@
     
     <color name="black_221b3a">#221b3a</color>
 
+    <!-- pieCharColor-->
+    <color name="pie_char_1">#ff0000</color>
+    <color name="pie_char_2">#00ff00</color>
+    <color name="pie_char_3">#0000ff</color>
+    <color name="pie_char_4">#c0a142</color>
+    <color name="pie_char_5">#818181</color>
+    <color name="pie_char_6">#f65288</color>
+    <color name="pie_char_7">#88dd60</color>
+
 </resources>

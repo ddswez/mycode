@@ -1,51 +1,57 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
 
 
     <Button
+        android:id="@+id/btn_listView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_listView"
         android:text="listView"/>
 
     <Button
+        android:id="@+id/btn_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_view"
         android:text="开关和圆形进度条"/>
 
-  <Button
+    <Button
+        android:id="@+id/btn_Interpolator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_Interpolator"
         android:text="Interpolator"/>
 
     <Button
+        android:id="@+id/btn_time_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_time_view"
         android:text="时间控件"/>
 
     <Button
+        android:id="@+id/btn_dash_spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_dash_spinner"
         android:text="dash_spinner"/>
 
     <Button
+        android:id="@+id/btn_pie_char"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_pie_char"
         android:text="饼状图"/>
 
- <Button
+    <Button
+        android:id="@+id/btn_pie_char2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_pie_char2"
-        android:text="饼状图"/>
+        android:text="饼状图2"/>
+
+    <Button
+        android:id="@+id/btn_pie_char3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="饼状图3"/>
 
 
 </LinearLayout>

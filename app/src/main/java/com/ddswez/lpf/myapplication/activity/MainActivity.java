@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_dash_spinner).setOnClickListener(this);
         findViewById(R.id.btn_pie_char).setOnClickListener(this);
         findViewById(R.id.btn_pie_char2).setOnClickListener(this);
+        findViewById(R.id.btn_pie_char3).setOnClickListener(this);
 
 
     }
@@ -68,6 +69,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_pie_char2 :
                 startActivity(new Intent(MainActivity.this, PieCharActivity2.class));
+                break;
+            case R.id.btn_pie_char3 :
+                startActivity(new Intent(MainActivity.this, MyPieCharActivity.class));
                 break;
         }
     }
