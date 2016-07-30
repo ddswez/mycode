@@ -7,51 +7,56 @@
 
     <Button
         android:id="@+id/btn_listView"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="listView"/>
 
     <Button
         android:id="@+id/btn_view"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="开关和圆形进度条"/>
 
     <Button
         android:id="@+id/btn_Interpolator"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Interpolator"/>
 
     <Button
         android:id="@+id/btn_time_view"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="时间控件"/>
 
     <Button
         android:id="@+id/btn_dash_spinner"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="dash_spinner"/>
 
     <Button
         android:id="@+id/btn_pie_char"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="饼状图"/>
 
     <Button
         android:id="@+id/btn_pie_char2"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="饼状图2"/>
 
     <Button
         android:id="@+id/btn_pie_char3"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="饼状图3"/>
-
+    <Button
+        android:id="@+id/hack"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Hack"/>
 
 </LinearLayout>

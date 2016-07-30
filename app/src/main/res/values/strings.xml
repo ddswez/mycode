@@ -6,4 +6,8 @@
     <string name="title_activity_btn_and_img_on_click">BtnAndImgOnClick</string>
     <string name="title_activity_my_view">MyViewActivity</string>
     <string name="title_activity_interpolator">InterpolatorActivity</string>
+    <string name="Text_witcher">TextSwitcher</string>
+    <string name="title_activity_cancas_test">CancasTestActivity</string>
+    <string name="title_activity_hack11_led">Hack11LEDActivity</string>
+    <string name="title_activity_hack">HackActivity</string>
 </resources>

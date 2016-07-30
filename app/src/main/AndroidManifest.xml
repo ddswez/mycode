@@ -48,15 +48,41 @@
             android:name=".dashSpinner.DashSpinnerActivity"
             android:label="@string/title_activity_interpolator" >
         </activity>
+        <activity android:name=".hack.hack5.TextSwitherActivity" >
+        </activity>
 
         <receiver android:name=".widget.MyWidgetProvider" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
-            <meta-data android:name="android.appwidget.provider"
-                       android:resource="@xml/example_appwidget_info" />
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/example_appwidget_info" />
         </receiver>
-        <service android:name=".widget.UpdateWidgetService"/>
+
+        <service android:name=".widget.UpdateWidgetService" />
+
+        <activity
+            android:name=".hack.hack7.CancasTestActivity"
+            android:label="@string/title_activity_cancas_test" >
+        </activity>
+        <activity
+            android:name=".hack.hack11.Hack11LEDActivity"
+            android:label="@string/title_activity_hack11_led" >
+        </activity>
+        <activity
+            android:name=".hack.hack26.Hack26Activity"
+            android:label="@string/title_activity_hack11_led" >
+        </activity>
+        <activity
+            android:name=".hack.HackActivity"
+            android:label="@string/title_activity_hack" >
+        </activity>
+        <activity
+            android:name=".SideView.SideViewActivity"
+            android:label="@string/title_activity_hack" >
+        </activity>
     </application>
 
 </manifest>
