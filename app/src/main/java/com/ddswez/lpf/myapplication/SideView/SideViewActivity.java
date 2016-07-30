@@ -12,6 +12,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ddswez.lpf.myapplication.R;
 import com.ddswez.lpf.myapplication.SideView.SlideView.OnSlideListener;
@@ -32,7 +33,7 @@ public class SideViewActivity extends Activity implements OnItemClickListener, O
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_side_view);
         initView();
     }
 
@@ -151,7 +152,8 @@ public class SideViewActivity extends Activity implements OnItemClickListener, O
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position,
             long id) {
-        Log.e(TAG, "onItemClick position=" + position);
+
+        Toast.makeText(this, "position:" + position, Toast.LENGTH_SHORT).show();
     }
 
 //    @Override

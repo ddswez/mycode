@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.ddswez.lpf.myapplication.R;
+import com.ddswez.lpf.myapplication.SideView.SideViewActivity;
 import com.ddswez.lpf.myapplication.dashSpinner.DashSpinnerActivity;
 import com.ddswez.lpf.myapplication.hack.HackActivity;
 import com.ddswez.lpf.myapplication.piechar.PieCharActivity;
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_pie_char2).setOnClickListener(this);
         findViewById(R.id.btn_pie_char3).setOnClickListener(this);
         findViewById(R.id.hack).setOnClickListener(this);
+        findViewById(R.id.side_view).setOnClickListener(this);
     }
 
     @Override
@@ -75,6 +77,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.hack :
                 startActivity(new Intent(MainActivity.this, HackActivity.class));
+                break;
+            case R.id.side_view :
+                startActivity(new Intent(MainActivity.this, SideViewActivity.class));
                 break;
         }
     }

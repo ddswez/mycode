@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Scroller;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ddswez.lpf.myapplication.R;
 
@@ -61,6 +62,12 @@ public class SlideView extends LinearLayout {
         mHolderWidth = Math.round(TypedValue.applyDimension(
                 TypedValue.COMPLEX_UNIT_DIP, mHolderWidth, getResources()
                         .getDisplayMetrics()));
+        findViewById(R.id.delete).setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(mContext, "delete", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     public void setButtonText(CharSequence text) {
