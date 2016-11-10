@@ -20,6 +20,9 @@ import com.ddswez.lpf.myapplication.SideView.SlideView.OnSlideListener;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * from  任玉刚
+ */
 public class SideViewActivity extends Activity implements OnItemClickListener, OnClickListener{
 
     private static final String TAG = "MainActivity";
